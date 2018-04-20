@@ -1,0 +1,18 @@
+{
+  "name": "randoms-life-counter",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel src/index.html -p 8080",
+    "build": "parcel src/index.html"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/apfzvd/randoms-life-counter.git",
+  "author": "Ana Azevedo <apfzvd@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "hyperapp": "^1.2.5"
+  }
+}
